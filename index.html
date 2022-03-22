@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, course, tags"><!--Ключевые слова для поисковика-->
+    <meta name="description" content="Это базовый курс HTML"><!--Описание сайта в поисковике-->  
+    <title>mininHTMLCourse</title><!--Название вкладки в поисковике-->
+</head>
+<body>
+    <h1>Мое имя Павел</h1>
+    <p><img src="https://xakep.ru/wp-content/uploads/2014/11/00212.png" width="200" 
+    alt="тут была картинка из тырнета, но ее, видимо, там уже нет">
+       <img src="imgs/00212.png" width="200" alt="а это картинка из компуктера"></p>
+    <p>Мне 32 годика и я решил статать <strong><em>программистом</em></strong> </p>
+    <p>Пожелайте мне удачи))</p>
+    <hr>
+    <h4>Список хобби:</h4>
+    <ul><!-- список создан следующим способом ---- ul>li{Element $}*5-->
+        <li>Тут должен был</li>
+        <li>быть список</li>
+        <li>моих
+            <ol><!-- список создан следующим способом ---- ol>li{Element $}*5-->
+                <li>ОООчень</li>
+                <li>интересных</li>
+                <li>и</li>
+                <li>увлекательных</li>
+                <li>хобби</li>
+            </ol>  
+        </li>
+        <li>НО</li>
+        <li>мне лень их заполнять</li>
+    </ul>
+    <hr>
+    <h4>Табличка c опытом работы в ИТ</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Привет</th>
+                <th>Привет</th>
+                <th>Привет</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Опыта</td>
+                <td>Работы</td>
+                <td>в ИТ</td>
+            </tr>
+            <tr>
+                <td>у меня</td>
+                <td>собственно</td>
+                <td>нет(</td>
+            </tr>
+        </tbody> 
+    </table>
+    
+    
+    <hr>
+    <h5>Cписок моих соц. сетей:</h5>
+        <p><a href="Vkontakt">Vkontakt</a> | <a href="Telegram">Telegram</a></p>
+    <h5>Связаться со мной</h5>
+    <form>
+        <div>
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите Ваше имя">
+        </div>
+        <div>
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите Ваш email">
+        </div>
+        <div>
+            <label for="message">Ваше сообщение:</label>
+            <br>
+            <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение ..."></textarea>
+        </div>
+        <button type="submit">Отправить!</button>
+    </form>
+    <!-- БОЛЬШЕ ФОРМ БОГУ ФОРМ !!!!
+    <form>
+        <div> ОКОШКО ВВОДА ПАРОЛЯ
+            <label for="password">password:</label>
+            <input type="password" id="password" placeholder="Введите password">
+        </div>
+        <div> ОКОШКО ВВОДА ЧИСЛА(КОЛИЧЕСТВА)
+            <label for="number">number:</label>
+            <input type="number" id="number" placeholder="Введите number">
+        </div>
+        <div>
+            <label for="number">number:</label>
+            <input type="number" id="number" placeholder="Введите number" min="-10" max="10">
+        </div>
+        <div> ПОЛЗУНОК
+            <label for="range">range:</label>
+            <input type="range" id="range" min="-10" max="20" step="2">
+        </div>
+        <div> ДАТА
+            <label for="date">date:</label>
+            <input type="date" id="date">
+        </div>
+        <div> ВЫБОР ЦВЕТА
+            <label for="color">color:</label>
+            <input type="color" id="color">
+        </div>
+        <div> ВЫПАДАЮЩИЙ СПИСОК
+            <label for="select">select:</label>
+            <select id="select">
+                <option value="select1">select1</option>
+                <option value="select2">select2</option>
+                <option value="select3" selected>select3</option>
+                <option value="select4">select4</option>
+                <option value="select5">select5</option>          
+            </select>
+        </div>
+        <div> РАДИОКНОПКА
+            <label>radio:</label>
+            <input type="radio" name="radio">1
+            <input type="radio" name="radio">5
+            <input type="radio" name="radio">10
+            <input type="radio" name="radio">100+
+        </div>
+        <div> ГАЛОЧКИ
+            <label>checkbox</label>
+            <input type="checkbox" name="checkbox">1
+            <input type="checkbox" name="checkbox">5
+            <input type="checkbox" name="checkbox">10
+            <input type="checkbox" name="checkbox">100+
+        </div>
+        <input type="submit" value="Отправить!"> КНОПКА ОТПРАВИТЬ
+    </form>
+    -->
+    <!--Семантика HTML5
+    <header></header> Хедер
+    <nav></nav> Навигация
+    <aside></aside> Боковое меню
+    <section> Секция
+        <article></article> Статья
+        <article></article> Статья
+    </section>
+    <footer></footer> Футер
+-->
+</body>
+</html>
